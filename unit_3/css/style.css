@@ -1,0 +1,15 @@
+body {
+	text-align: center;
+	background: url("images/mountain.jpg");
+	background-size: cover;
+	font-family: Helvetica;
+	font-style: italic;
+
+}
+hr { 
+	widht: 1px;
+
+}
+p{
+	font-size: 22px;
+}
