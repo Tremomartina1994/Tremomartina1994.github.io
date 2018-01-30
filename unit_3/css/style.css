@@ -1,15 +1,23 @@
 body {
-	text-align: center;
 	background: url("images/mountain.jpg");
-	background-size: cover;
-	font-family: Helvetica;
+	font-family: "Helvetica";
 	font-style: italic;
+	text-align: center;
+	background-color: #fff;
+	background-size: 100%;
 
 }
-hr { 
-	widht: 1px;
-
+hr {
+	width: 700px;
+	we
 }
+
 p{
-	font-size: 22px;
+	font-size: 25px;
+
+}
+
+li {
+	font-size: 25px;
+
 }
