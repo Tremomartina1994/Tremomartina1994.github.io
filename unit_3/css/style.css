@@ -6,26 +6,24 @@ h1 {
 }
  
 body {
-	background: url("images/mountain.jpg");
-	font-family: 'Arial';
+	background: url("..images/mountain.jpg");
+	font-family: 'Helvetica';
 	font-size: 18px;
 	margin: 2em;
 	line-height: 2em;
 	text-align: center;
-	background-color: #fff;
-	background-size: 100%;
+
 
 }
 hr {
 	width: 700px;
+	text-align: center;
 }
 
-p{
+p.slogan, ul.slogan {
 	font-size: 25px;
-
+	font-family: 'Raleway', cursive;
 }
 
-li {
-	font-size: 25px;
 
 }
