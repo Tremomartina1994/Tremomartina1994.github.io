@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Nixie+One');
+
+body {
+	text-align: center;
+	font-family: 'Nixie One', cursive;
+	font-size: 2em
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+nav {
+	background-color: #e8c66a;
+	border: 1px black solid;
+	padding: 20px;
+	text-transform: uppercase;
+}
+
+aside {
+	background-color: #ffc675;
+	border: 1px black solid;
+	padding: 20px;
+}
+footer {
+	background-color: #ff957e;
+	border: 1px black solid;
+	padding: 20px
+}
+div {
+	background-color: #ffe2b8;
+	border: 1px black solid;
+	padding: 20px
+}
+
+.title {
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+li {
+	text-align: center;
+
+}
+
+h3 {
+	font-size: 1em;
+	font-style: italic;
+}
+#name {
+	font-size: 3em;
+}
+.text {
+	font-size: 30px;
+}
