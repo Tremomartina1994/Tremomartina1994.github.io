@@ -6,7 +6,9 @@ h1 {
 }
  
 body {
-	background: url("..images/mountain.jpg");
+	background-image: url("../images/mountain.jpg");
+	background-size: cover;
+	background-attachment: fixed;
 	font-family: 'Helvetica';
 	font-size: 18px;
 	margin: 2em;
