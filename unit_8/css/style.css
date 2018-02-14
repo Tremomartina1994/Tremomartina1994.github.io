@@ -48,8 +48,8 @@ div {
 	background-image: url("../images/mountain.jpg");
 	background-attachment: fixed;
 	background-size: cover;
-	padding: 10em;
-	margin:0 auto;
+	width:100%;
+	margin: 10em;
 }
 
 #bottone {
