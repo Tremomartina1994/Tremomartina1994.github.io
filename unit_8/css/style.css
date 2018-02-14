@@ -1,3 +1,4 @@
+* {margin:0; padding:0; box-sizing:border-box;}
 body {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
@@ -44,18 +45,23 @@ footer {
 	border: 20px #e8de34 solid;
 	padding: 20px
 }
-div {
+#arrivals {
 	background-image: url("../images/mountain.jpg");
 	background-attachment: fixed;
 	background-size: cover;
-	padding: 100%;
-	margin: 10em;
+	padding: 10em;
+	font-family: "Source Sans Pro", cursive;
 }
 
 #bottone {
 	text-decoration: none;
 	color: #fff;
-	font-weight: 900;
+	font-weight: 300;
+	background: purple;
+	padding: 1em 2em;
+}
+#bottone:hover {
+	text-decoration:underline;
 }
 h3 {
 	text-transform: uppercase;
@@ -68,15 +74,19 @@ h3 {
 	background-color: #312f2f;
 	padding: 20px;
 }
-#left {
+#left,#right {
 	padding: 20px;
 	float: left;
-	width: 40%;
+	width: 50%;
+	border: 1px solid #fff;
 }
-#right {
-	padding: 20px;
-	float: right;
-	width: 40%;
+img {
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
 }
 .clearfix:after {
 	visibility: hidden;
