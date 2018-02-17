@@ -3,6 +3,7 @@ body {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
+	background-color: #e8de34;
 }
 header {
 	background-color: #312f2f;
@@ -49,24 +50,29 @@ footer {
 	background-image: url("../images/mountain.jpg");
 	background-attachment: fixed;
 	background-size: cover;
-	padding: 10em;
-	font-family: "Source Sans Pro", cursive;
+	padding: 20em;
+	width: 100%;
 }
 
 #bottone {
 	text-decoration: none;
-	color: #fff;
+	color: #312f2f;
 	font-weight: 300;
-	background: purple;
+	background: #e8de34;
 	padding: 1em 2em;
+	font-weight: 900;
+
 }
 #bottone:hover {
 	text-decoration:underline;
+	background: #312f2f;
+	color: #e8de34;
+	font-weight: 900;
 }
 h3 {
 	text-transform: uppercase;
 	font-size: 20px;
-	color: white;
+	color: #e8de34;
 	font-weight: 900;
 
 }
@@ -77,11 +83,33 @@ h3 {
 #left,#right {
 	padding: 20px;
 	float: left;
-	width: 50%;
-	border: 1px solid #fff;
+	width: 45%;
+}
+#right {
+	text-align: left;
+	color: #e8de34;
 }
 img {
-    width: 100%;
+    width: 85%;
+}
+p {
+	margin: 1em 2em 2em 2em;
+	line-height: 1.5em;
+	color: white;
+	width: 100%;
+}
+#more {
+	text-decoration: none;
+	font-weight: 300;
+	color: #e8de34;
+	padding: 1em 2em;
+	font-weight: 900;
+}
+#more:hover {
+	text-decoration:underline;
+	background: #312f2f;
+	color: white;
+	font-weight: 900;
 }
 
 .wrapper {
@@ -95,4 +123,34 @@ img {
 	content:"";
 	clear: both;
 	height: 0;
+}
+@media only screen and (max-width: 800px) {
+
+h1 {
+	font-size: 1.8em;
+	display: block;
+}
+header {
+	font-size: .6em;
+}
+nav {
+	background-color: #312f2f;
+    border: none;
+    padding: none;
+}
+ 
+nav a {
+	text-decoration: none;
+  color: #fff;
+  display: block;
+  margin: auto;
+  padding: 1em;
+  }
+div {
+	width: 50%;
+	border: none;
+	display: block;
+	margin: auto;
+}
+
 }
