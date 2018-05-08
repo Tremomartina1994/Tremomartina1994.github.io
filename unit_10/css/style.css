@@ -73,7 +73,8 @@ nav a {
 footer {
 	background-color: #e8de34;
 	border: 20px #e8de34 solid;
-	padding: 20px
+	padding: 20px;
+	margin: 0;
 }
 #social {
 	width: 15%;
